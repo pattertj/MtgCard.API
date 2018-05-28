@@ -4,11 +4,11 @@ module.exports = mongoose.model('Card', {
     name: {
         type: String,
         default: ''
-    },	
+    },
     manaCost: {
         type: String,
         default: ''
-    },	
+    },
     cmc: {
         type: Number,
         default: ''
