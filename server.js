@@ -4,7 +4,7 @@ var bodyParser = require('body-parser'); // body-parser to help deal with JSON r
 var database = require('./app/config/database'); // load the database config
 
 const app = express();
-const port = 8000;
+const port = 8080;;
 
 mongoose.connect(database.remoteUrl); // Connect to local MongoDB instance. A remoteUrl is also available (modulus.io)
 
